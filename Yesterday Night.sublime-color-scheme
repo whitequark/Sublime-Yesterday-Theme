@@ -146,6 +146,13 @@
             "name": "diff.changed",
             "scope": "markup.changed",
             "foreground": "var(purple)"
-        }
+        },
+        /* Sublime-Coq support */
+        {
+            "name": "Proven with Coq",
+            "scope": "meta.proven.coq",
+            "background": "#058d050d",
+            "foreground": "#7fa96f"
+        },
     ]
 }
