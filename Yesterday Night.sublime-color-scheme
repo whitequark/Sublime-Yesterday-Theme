@@ -63,8 +63,8 @@
             "foreground": "var(orange2)"
         },
         {
-            "name": "Class, Type, Function Parameter",
-            "scope": "entity.name.class, entity.name.type.class, support.type, support.class, variable.parameter",
+            "name": "Class, Struct, Type, Function Parameter",
+            "scope": "entity.name.class, entity.name.struct, entity.name.type.class, support.type, support.class, variable.parameter",
             "foreground": "var(orange)"
         },
         {
