@@ -17,7 +17,7 @@
         "red": "#c82829",
         "white": "#ffffff",
         "white2": "#efefef",
-        "yellow": "#718c00"
+        "green": "#718c00"
     },
     "globals":
     {
@@ -58,7 +58,7 @@
         {
             "name": "String, Symbols, Inherited Class, Markup Heading",
             "scope": "string, constant.other.symbol, entity.other.inherited-class, markup.heading",
-            "foreground": "var(yellow)"
+            "foreground": "var(green)"
         },
         {
             "name": "Operator, Misc",
@@ -101,7 +101,7 @@
         {
             "name": "Diff insertion",
             "scope": "markup.inserted.diff, meta.diff.header.to-file",
-            "background": "var(yellow)"
+            "background": "var(green)"
         },
         {
             "name": "Diff deletion",

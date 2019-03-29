@@ -27,9 +27,9 @@
         "white": "#ffffff",
         "white2": "#eeeeee",
         "white3": "#dedede",
-        "yellow": "#b9ca4a",
-        "yellow2": "#718c00",
-        "yellow3": "#a6e22e"
+        "green": "#b9ca4a",
+        "green2": "#718c00",
+        "green3": "#a6e22e"
     },
     "globals":
     {
@@ -70,7 +70,7 @@
         {
             "name": "String, Symbols, Inherited Class, Markup Heading",
             "scope": "string, constant.other.symbol, entity.other.inherited-class, markup.heading",
-            "foreground": "var(yellow)"
+            "foreground": "var(green)"
         },
         {
             "name": "Operator, Misc",
@@ -113,7 +113,7 @@
         {
             "name": "Diff insertion",
             "scope": "markup.inserted.diff, meta.diff.header.to-file",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green2)"
         },
         {
             "name": "Diff deletion",
@@ -140,7 +140,7 @@
         {
             "name": "diff.inserted",
             "scope": "markup.inserted",
-            "foreground": "var(yellow3)"
+            "foreground": "var(green3)"
         },
         {
             "name": "diff.changed",
