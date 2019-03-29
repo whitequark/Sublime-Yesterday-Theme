@@ -46,13 +46,13 @@
             "foreground": "var(red)"
         },
         {
-            "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+            "name": "Number, Constant, Tag Attribute, Embedded",
             "scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit",
             "foreground": "var(orange)"
         },
         {
-            "name": "Class, Support",
-            "scope": "entity.name.class, entity.name.type.class, support.type, support.class",
+            "name": "Class, Support, Function Parameter",
+            "scope": "entity.name.class, entity.name.type.class, support.type, support.class, variable.parameter",
             "foreground": "var(orange2)"
         },
         {
