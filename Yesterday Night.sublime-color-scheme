@@ -1,6 +1,6 @@
 {
     "name": "Tomorrow Night",
-    "author": "Chris Kempson",
+    "author": "Chris Kempson, whitequark",
     "variables":
     {
         "black": "#1d1f21",
@@ -53,8 +53,8 @@
             "foreground": "var(grey4)"
         },
         {
-            "name": "Variable, String Link, Regular Expression, Tag Name",
-            "scope": "variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag",
+            "name": "Language Variable, String Link, Regular Expression, Tag Name",
+            "scope": "variable.language, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag",
             "foreground": "var(red2)"
         },
         {
@@ -78,8 +78,8 @@
             "foreground": "var(blue5)"
         },
         {
-            "name": "Function, Special Method, Block Level",
-            "scope": "entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level",
+            "name": "Variable, Function, Function Argument Group, Special Method, Block Level",
+            "scope": "variable, support.other.variable, entity.name.function, support.function, punctuation.section.arguments, keyword.other.special-method, meta.block-level",
             "foreground": "var(blue2)"
         },
         {
